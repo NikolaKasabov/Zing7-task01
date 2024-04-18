@@ -4,7 +4,7 @@ import Tab from "./Tab";
 
 export default function Tabs() {
   return (
-    <div className="flex gap-3 justify-center flex-wrap translate-y-14">
+    <div className="flex gap-3 justify-center flex-wrap translate-y-14 relative z-10">
       <Tab icon={<FaBed size={32} />}>8 нощувки</Tab>
       <Tab icon={<FaPlane size={32} />}>Самолет</Tab>
       <Tab icon={<HiMapPin size={32} />}>Австрия</Tab>
