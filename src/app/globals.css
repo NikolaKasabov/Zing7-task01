@@ -29,3 +29,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.background-hero {
+  background-image: url("../../public/images/hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
