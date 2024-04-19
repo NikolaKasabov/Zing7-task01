@@ -8,7 +8,7 @@ import CustomerReviewItem from "./CustomerReviewItem";
 export default function CustomerReviews() {
   return (
     <section className="pb-[90px]">
-      <h2 className="mt-12 text-[27px] font-bold">Отзиви от клиенти</h2>
+      <h2 className="mt-12 text-[27px] font-bold text-center xl:text-left">Отзиви от клиенти</h2>
       <div className="mt-4 flex flex-wrap gap-x-[18px] gap-y-14 justify-center">
         <CustomerReviewItem
           icon={<IoPersonCircle className="text-[#D92027]" size={58} />}

@@ -7,7 +7,7 @@ import performer4 from "../../public/images/performer4.png";
 export default function Performers() {
   return (
     <>
-      <h3 className="mt-12 text-lg font-bold">Изпълнители</h3>
+      <h3 className="mt-12 text-lg font-bold text-center xl:text-left">Изпълнители</h3>
       <div className="mt-6 flex flex-wrap justify-center gap-[15px] text-black">
         <div>
           <Image src={performer1} alt="Fat Joe" />

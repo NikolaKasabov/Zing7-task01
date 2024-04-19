@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <h2 className="text-[27px] font-bold">За събитието</h2>
+      <h2 className="text-[27px] font-bold text-center xl:text-left">За събитието</h2>
       <p className="mt-6 leading-[27px] text-black">
         Ако ви привлича Изтока и източната култура, със сигурност сте чували за Акаба. Курортното градче е разположено в
         северната част на Червено море, като е единственият крайбрежен град в Йордания, най-големият и най-гъсто

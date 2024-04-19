@@ -1,7 +1,7 @@
 export default function PromoPackages() {
   return (
     <>
-      <h3 className="mt-12 text-lg font-bold">Промо пакети</h3>
+      <h3 className="mt-12 text-lg font-bold text-center xl:text-left">Промо пакети</h3>
       <table className="mt-6 w-full text-left border-separate border-spacing-x-2 text-black">
         <thead>
           <tr className="text-[13px] text-[#ACACAC]">
