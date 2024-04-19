@@ -2,7 +2,7 @@ export default function PromoPackages() {
   return (
     <>
       <h3 className="mt-12 text-lg font-bold">Промо пакети</h3>
-      <table className="mt-6 w-full text-left border-separate border-spacing-x-2">
+      <table className="mt-6 w-full text-left border-separate border-spacing-x-2 text-black">
         <thead>
           <tr className="text-[13px] text-[#ACACAC]">
             <th className="py-2 pl-4 bg-[#F5F5F5]">Настаняване</th>

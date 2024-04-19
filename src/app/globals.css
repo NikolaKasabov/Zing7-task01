@@ -36,3 +36,7 @@
   background-position: center;
   background-size: cover;
 }
+
+.slider-wrapper button:before {
+  color: black;
+}

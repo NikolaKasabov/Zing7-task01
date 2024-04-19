@@ -8,7 +8,7 @@ export default function Performers() {
   return (
     <>
       <h3 className="mt-12 text-lg font-bold">Изпълнители</h3>
-      <div className="mt-6 flex flex-wrap justify-center gap-[15px] ">
+      <div className="mt-6 flex flex-wrap justify-center gap-[15px] text-black">
         <div>
           <Image src={performer1} alt="Fat Joe" />
           <p className="mt-2 text-sm text-center">Fat Joe</p>

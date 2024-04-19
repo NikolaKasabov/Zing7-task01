@@ -1,5 +1,6 @@
 import About from "./About";
 import Gallery from "./Gallery";
+import Hotels from "./Hotels";
 import Performers from "./Performers";
 import PromoPackages from "./PromoPackages";
 
@@ -12,6 +13,7 @@ export default function Info() {
           <Gallery />
           <PromoPackages />
           <Performers />
+          <Hotels />
         </section>
       </div>
       <div className="justify-self-center xl:justify-self-start xl:w-full">
