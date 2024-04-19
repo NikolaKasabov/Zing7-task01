@@ -1,5 +1,6 @@
 "use client";
 import { FaHotel } from "react-icons/fa";
+import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 import Slider from "react-slick";
 import Image from "next/image";
 import "slick-carousel/slick/slick.css";
@@ -10,12 +11,30 @@ import slider3 from "../../public/images/slider3.png";
 import { useEffect, useRef } from "react";
 
 export default function HotelItem() {
+  function LeftArrow({ className, style, onClick }) {
+    return (
+      <button onClick={onClick}>
+        <FaChevronLeft className={className} style={{ ...style, color: "black" }} />
+      </button>
+    );
+  }
+
+  function RightArrow({ className, style, onClick }) {
+    return (
+      <button onClick={onClick}>
+        <FaChevronRight className={className} style={{ ...style, color: "black" }} />
+      </button>
+    );
+  }
+
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    prevArrow: <LeftArrow />,
+    nextArrow: <RightArrow />,
   };
 
   const wrapper = useRef();

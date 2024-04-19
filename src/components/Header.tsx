@@ -23,21 +23,21 @@ export default function Header() {
         </Link>
       </div>
 
-      <nav className="hidden lg:!block py-8 lg:py-0" style={{'display': showMobileNav ? 'block' : 'none'}}>
+      <nav className="hidden lg:!block py-8 lg:py-0" style={{ display: showMobileNav ? "block" : "none" }}>
         <ul className="flex flex-col lg:flex-row items-center gap-5 lg:gap-[45px] font-bold">
-          <li>
+          <li className="border-b-[1px] border-transparent hover:border-[#323232]">
             <Link href="/">Почивки и екскурзии</Link>
           </li>
-          <li>
+          <li className="border-b-[1px] border-transparent hover:border-[#323232]">
             <Link href="/">Хотели</Link>
           </li>
-          <li>
+          <li className="border-b-[1px] border-transparent hover:border-[#323232]">
             <Link href="/">Блог</Link>
           </li>
-          <li>
+          <li className="border-b-[1px] border-transparent hover:border-[#323232]">
             <Link href="/">За нас</Link>
           </li>
-          <li>
+          <li className="border-b-[1px] border-transparent hover:border-[#323232]">
             <Link href="/">Контакти</Link>
           </li>
         </ul>
