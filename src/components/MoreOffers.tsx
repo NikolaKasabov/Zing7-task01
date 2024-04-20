@@ -56,7 +56,7 @@ export default function MoreOffers() {
   );
 
   return (
-    <section className="pt-5 xl:pt-[60px] pb-[100px] bg-[#FAFAFA]">
+    <section className="py-5 xl:pt-[60px] xl:pb-[100px] bg-[#FAFAFA]">
       <div className="max-w-[1321px] mx-auto px-5">
         <h2 className="text-[27px] font-bold text-center xl:text-left">Още предложения</h2>
         <div className="mt-[26px] flex justify-center flex-wrap gap-[27px]">
