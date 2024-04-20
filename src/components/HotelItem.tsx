@@ -54,6 +54,7 @@ export default function HotelItem() {
     }
 
     addEventListener("resize", handleResize);
+    handleResize();
 
     return () => removeEventListener("resize", handleResize);
   }, []);
